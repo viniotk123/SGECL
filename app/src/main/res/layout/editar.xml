@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:background="#E0FFFF">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesquise um nome e mude os dados em seus respectivos campos"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#010101"
+            android:textAlignment="center" />
+
+        <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <EditText
+            android:hint="Pesquisar nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/EPesquisar"
+            android:width="250dp"
+            android:layout_weight="1"></EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/Ebt_pesquisar"
+            android:layout_gravity="right"/>
+        />
+
+
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ealuno"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nome do aluno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ep1"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nota 1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ep2"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nota 2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ep3"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nota 3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ep4"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nota 4"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Efaltas"
+        android:layout_gravity="center_horizontal"
+        android:hint="Número de faltas"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lançar"
+        android:id="@+id/Ebt_lancar"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar campos"
+        android:id="@+id/Ebt_limpar"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:id="@+id/Ebt_voltar"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+    </LinearLayout>
+
+</ScrollView>

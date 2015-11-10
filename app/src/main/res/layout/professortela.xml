@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="#E0FFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione a função desejada"
+        android:id="@+id/textView"
+        android:textColor="#000001"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.4"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar novo aluno"
+        android:id="@+id/bt_cadastrar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar dados"
+        android:id="@+id/bt_telaeditar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar mensagem aos alunos"
+        android:id="@+id/bt_mensagem"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerar arquivo do banco"
+        android:id="@+id/bt_arquivo"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:id="@+id/bt_sair"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="banco.txt"
+        android:id="@+id/txt_arquivo"
+        android:layout_weight="0.4"
+        android:visibility="invisible" />
+</LinearLayout>

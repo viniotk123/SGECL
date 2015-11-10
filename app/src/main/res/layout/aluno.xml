@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:background="#E0FFFF">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digite seu nome e veja seus dados nos respectivos campos"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#010101"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <EditText
+        android:hint="Pesquisar nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pesquisar"
+            android:width="250dp"
+            android:layout_weight="1"></EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/bt_pesquisar"
+            android:layout_gravity="right"/>
+       />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome:                "
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tv_nome"
+            android:textColor="#000000"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota1:               "
+            android:id="@+id/textViegw3"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tv_n1"
+            android:textColor="#000000"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota 2:              "
+            android:id="@+id/texdsftView3"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tv_n2"
+            android:textColor="#000000"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota 3:              "
+            android:id="@+id/textdsView3"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tv_n3"
+            android:textColor="#000000"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota 4:              "
+            android:id="@+id/textViewfdg3"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tv_n4"
+            android:textColor="#000000"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número de faltas:  "
+            android:id="@+id/textView38"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tv_faltas"
+            android:textColor="#000000"
+            android:layout_gravity="right"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Somatório das notas:"
+            android:id="@+id/somatocbdrio"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/somatorio"
+            android:textColor="#000000"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensagem:"
+        android:id="@+id/textView4976"
+        android:layout_margin="10sp"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tv_mensagem"
+        android:textColor="#000000"
+        android:layout_gravity=""
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela inicial"
+        android:id="@+id/bt_inicio"
+        android:layout_gravity="center_horizontal"
+        style="@android:style/Animation" />
+</LinearLayout>
+    </ScrollView>
